@@ -12,7 +12,8 @@ These are fully independent, compilable examples. There is significant overlap i
 
 | Example Name | Classes Demonstrated | Description | Image |
 | -------------- | ---------------------- | ------------- | ------- |
-[A hello world example](/Cxx/GeometricObjects/CylinderExample) | vtkPolyDataMapper vtkActor vtkRenderer vtkRenderWindow vtkRenderWindowInteractor | Cylinder example from the VTK Textbook and source code. A hello world example.
+[A hello world example](/Cxx/GeometricObjects/CylinderExample) | vtk
+Mapper vtkActor vtkRenderer vtkRenderWindow vtkRenderWindowInteractor | Cylinder example from the VTK Textbook and source code. A hello world example.
 
 ## Simple Operations
 
@@ -322,6 +323,7 @@ These examples demonstrate how to create an display one of the many vtkParametri
 [FinanceFieldData](/Cxx/Modelling/FinanceFieldData) | vtkGaussianSplatter | Visualization of multidimensional financial data. The yellow surface represents the total data population. The red surface represents data points delinquent on loan payment.
 [FindAllArrayNames](/Cxx/IO/FindAllArrayNames) | vtkPolyData | Get the names of all of the data arrays.
 [FitSplineToCutterOutput](/Cxx/PolyData/FitSplineToCutterOutput) | vtkKochanekSpline vtkSplineFilter vtkSpline | Fit a spline to cutter output.
+[FilledPolygon](/Cxx/PolyData/FilledPolygon) | vtkCutter |
 [GeometryFilter](/Cxx/PolyData/GeometryFilter) | vtkGeometryFilter | Convert vtkUnstructuredGrid to vtkPolyData (another way).
 [GetMiscCellData](/Cxx/PolyData/GetMiscCellData) | vtkCellData | Get Miscellaneous Data from Cells in a Polydata.
 [GetMiscPointData](/Cxx/PolyData/GetMiscPointData) | vtkDoubleArray | Get Miscellaneous Data from Points in a Polydata.
